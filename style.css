@@ -1,0 +1,116 @@
+/*
+font used: Roboto
+
+dark background color(hero and footer)
+#1F2937
+
+hero main text("this website is awesome")
+48px #F9FAF8 weight: 900
+
+hero secondary text, header link text
+18px #E5E7EB
+
+hero logo text
+24px #F9FAF8
+-----------------------------------------
+
+button color, call to action background color
+#3882F6
+
+information header text
+36px #1F2937 weight: 900
+----------------------------------------------
+
+quote section background color
+#E5E7EB
+
+quote text
+36px #1F2937 weight: 300
+*/
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.right-links a {
+    color: rgb(136, 135, 135);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.container-1 {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+    padding: 10px 50px 50px 50px;
+}
+
+.headers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.placeholder-image-header {
+    background-color: rgb(124, 123, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 70%;   
+}
+
+.hero-header{
+    flex-shrink: 2;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+
+.hero-header-title{
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-header-main-text {
+    font-weight: 1;
+    opacity: 0.5;
+    margin-bottom:10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+.header-button {
+    flex-basis: 100%;
+}
+
+
+
+
+
